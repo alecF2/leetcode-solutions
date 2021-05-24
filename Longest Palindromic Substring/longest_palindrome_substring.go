@@ -34,6 +34,7 @@ func longestPalindrome(s string) string {
 	return longest
 }
 
+// incomplete
 func main() {
 	fmt.Println(longestPalindrome("acaabacabacababb"))
 }
