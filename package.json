@@ -1,0 +1,12 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alecF2/leetcode-solutions.git",
+  "author": "Alec Atienza <alec@null.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "ts-node": "^10.0.0"
+  }
+}
