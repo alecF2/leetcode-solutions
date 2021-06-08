@@ -2,7 +2,7 @@ function lengthOfLongestSubstring(s: string): number {
     let curr_length = 0
     let max_length = 0
     let start = 0
-    let curr_chars = {}
+    let curr_chars = {} as Record<string, number>
 
     for (let i = 0; i < s.length; i++) {
         if (s[i] in curr_chars) {
