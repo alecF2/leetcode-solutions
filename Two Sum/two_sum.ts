@@ -1,5 +1,5 @@
 function twoSum(nums: number[], target: number): number[] {
-    let m: Record<number, number> = {}
+    let m = {} as Record<number, number>
     for (let i = 0; i < nums.length; i++) {
         if (target - nums[i] in m) {
             return [m[target - nums[i]], i]
